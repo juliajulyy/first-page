@@ -1,9 +1,9 @@
 * {margin: 0; padding: 0;}
 body {
 	text-align: center;
-	background: #E0FFFF url("devapp.png") no-repeat fixed;
+	background: #FFF url("devapp.png") no-repeat fixed;
 	text-align: left; 
-	background-size: 100% 100%;y'
+	background-size: 100% 100%;
 }
 div {
 	background: rgba(248, 248, 255, 0.9);
