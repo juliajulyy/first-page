@@ -3,6 +3,7 @@ body {
 	text-align: center;
 	background: #E0FFFF url("devapp.png") no-repeat fixed;
 	text-align: left; 
+	background-size: 100% 100%;y'
 }
 div {
 	background: rgba(248, 248, 255, 0.9);
@@ -11,12 +12,21 @@ div {
 	width: 850px; 
 	margin: 40px auto; 
 }
+h1 {
+	text-align: center;
+	color: #191970;
+	font-size: 2.2em;
+	font: small-caps bold 2.2em georgia, "times new roman", serif;
+}
 h2 {
 	text-align: center;
 	color: #191970;
+	font: bold 1.4em georgia, "times new roman", serif;
 }
+
 h3 {
 	color: #000080;
+	font: bold 1.1em georgia, "times new roman", serif;
 }
 b {
 	color: #000080;
