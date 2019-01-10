@@ -11,7 +11,6 @@ div.page {
 	padding: 2.6%;
 	padding-bottom: 2.9%;
 	padding-top: 2.9%;
-	position: relative;
 	width: 800px; 
 }
 figure.img-center{
@@ -158,12 +157,12 @@ img.portrait {
 	width: 88%;
 }
 #pac1 {
-	width: 10%;
-	opacity: 0.65;
+	width: 5.7%;
+	opacity: 0.55;
 	z-index: 1;
 	position: absolute;
-	left: 75%;
-	top: 295px;
+	left: 64%;
+	top: 43.9%;
 }
 .slice {
 	position: relative;
