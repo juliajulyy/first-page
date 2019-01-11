@@ -11,18 +11,10 @@ div.page {
 	padding: 2.6%;
 	padding-bottom: 2.9%;
 	padding-top: 2.9%;
-	width: 800px; 
+	width: 52%; 
 }
 figure.img-center{
 	text-align: center;
-}
-figure.rightimg {
-    float: right;
-    margin-top: 0.7%;
-    margin-left: 2%;
-    margin-bottom: 2.7%;
-    text-align: right;
-    width: 18%;
 }
 span.outline{
 	text-decoration: line-through;
@@ -40,6 +32,7 @@ h2.item {
 	letter-spacing: 0.01em;
 	padding-bottom: 1%;
 	padding-left: 12%;
+	padding-top: 3%;
 	text-align: left;
 }
 h2.sayings {
@@ -54,14 +47,6 @@ h3.mini-item {
 	color: #000080;
 	font: bold 1.1em georgia, "times new roman", serif;
 	letter-spacing: 0.2px;
-}
-h4.writing {
-	color: #000080;
-	font: bold 1em georgia, "times new roman", serif;
-	letter-spacing: 0.15px;
-	padding-top: 1.8%;
-	text-align: center;
-	text-indent: 0;
 }
 b {
 	color: #000080;
@@ -135,8 +120,17 @@ a.external-links{
 img.image-programmer{
 	width: 40%;
 }
-img.portrait {
-	width: 100%;
+#primar {
+	width: 5.7%;
+	opacity: 0.67;
+	z-index: 1;
+	position: absolute;
+	left: 64.5%;
+	top: 41.9%;
+}
+.slice {
+	position: relative;
+	z-index: 2;  
 }
 #text-in-frame {
 	background: rgba(248, 248, 255, 0); 
@@ -156,15 +150,36 @@ img.portrait {
 	vertical-align: middle;
 	width: 88%;
 }
-#pac1 {
-	width: 5.7%;
-	opacity: 0.55;
-	z-index: 1;
-	position: absolute;
-	left: 64%;
-	top: 43.9%;
+.continue-page:after {
+	content: ' ';
+	clear: both;
+	display: block;
 }
-.slice {
-	position: relative;
-	z-index: 2;  
+#block-history{
+	float: right;
+	width: 40%;
+	margin-bottom: 0.3%;
+}
+.rightimg {
+	float: right;
+    margin-top: 0.7%;
+    margin-left: 4%;
+    width: 46%;
+}
+.portrait {
+	width: 100%;
+}
+.writing {
+	color: #000080;
+	font: bold 1em georgia, "times new roman", serif;
+	letter-spacing: 0.15px;
+	padding-top: 1.8%;
+	text-align: center;
+	text-indent: 0;
+}
+#ada-caption {
+	padding-top: 9%;
+}
+#charles-caption {
+	padding-top: 1%;
 }
