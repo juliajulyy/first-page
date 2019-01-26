@@ -1,7 +1,7 @@
 * {margin: 0; padding: 0;}
 
 body {
-	background: #FFF  url("cactus.png") no-repeat fixed;
+	background: #FFF  url("pictures/cactus.png") no-repeat fixed;
 	background-size: 100% 100%;
 	text-align: left; 
 }
@@ -12,7 +12,6 @@ footer {
 }
 main{
 	background: rgba(248, 248, 255, 0.91);
-	margin-top: 2.6%;
 	margin-left: 21%;
 	margin-right: 21%;
 	margin-bottom: 2.4%;
@@ -21,17 +20,17 @@ main{
 	padding-right: 2.6%;
 	padding-left: 2.6%;
 }
-a:hover {
-	color: #006400;
-	font-style: italic;
-}
 a:link {
 	color: #1E90FF;
-	text-decoration:none;
+	text-decoration: none;
 }
 a:visited {
 	color: #483D8B;
-	text-decoration:none;
+	text-decoration: none;
+}
+a:hover {
+	color: #2E8B57;
+	font-style: italic;
 }
 b {
 	color: #000080;
@@ -44,6 +43,9 @@ blockquote {
 }
 cite{
 	padding-left: 75%;
+}
+dd {
+	padding-left: 12%;
 }
 p {
 	text-align: justify;
@@ -123,6 +125,38 @@ tr td:first-child {
 	padding-bottom: 1%;
 	padding-left: 12%;
 	text-align: left;
+}
+.nav-page {
+	background: #F5F5DC;
+	opacity: 0.95;
+  box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  margin: 4px 19% 8px 19%;
+  padding: 15px 6% 12px 6%;
+}
+.menu li {
+  display: inline-block;
+  margin-right: 45px;
+  padding: 5px;
+}
+.menu li a {
+  font-weight: bold;
+  font-size: 32px;
+  color: #228B22;
+  font-style: italic;
+  font-family: century, serif;
+  text-shadow: 0 1px 1px black;
+}
+.menu a:hover {
+	font-style: normal;
+}
+.navbar-logo {
+	display: inline-block;
+}
+.img-logo {
+	width: 80px;
+	padding-right: 58px;
 }
 .mini-item {
 	color: #000080;
