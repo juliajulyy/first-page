@@ -9,7 +9,7 @@
 
 	<body>
 
-		  <header>
+		<header>
       <nav class="nav-page">
         <figure class="navbar-logo">
           <a href="index.html">
@@ -24,6 +24,43 @@
         </ul>
       </nav>  
     </header>
+
+    <main>
+      <section>
+        <h2 class="item"> Want to ask something?</h2>
+        <p>
+          Please send to us a question that interests you, complaints or recommendations. Noticed a mistake? Write to us and we will try to fix it as soon as possible! Leave us your email so that we can respond to you and we will definitely answer you!
+        </p>
+        <p>
+          And also indicate what kind of programming relation you have, if the specified options are not appropriate you should type your own. All data about it is collected for statistical purposes and if you don't want to answer it, this right remains for you.
+        </p>
+        <p>
+          Best wishes, 
+          <br> Administration of the Programmer's Page.
+        </p>
+        <form id="data" name="user queations" method="post" action="answer.html">
+        <p class="form">
+          <textarea cols="50" rows="6" placeholder=" What interests you?" name="question" required></textarea>
+        </p>
+        <p class="form">
+          <input size="30" type="text" name="position" placeholder=" Who you are?" list="kind of position">
+          <datalist id="kind of position">
+            <option>I'm only interested</option>
+            <option>Self-taught</option>
+            <option>Visit programming courses</option>
+            <option>Student programmer</option>
+            <option>I work as a programmer</option>
+          </datalist>
+        </p>
+        <p class="form">
+          <input size="30" type="email" placeholder=" Your email" required>
+        </p>
+        <p class="form">
+          <button type="submit" form="data">Submit</button>
+        </p>
+        </form>
+      </section>
+    </main>
 
     <footer>
       ©juliajulyy, 2019 
