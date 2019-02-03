@@ -1,28 +1,79 @@
 * {margin: 0; padding: 0;}
 
 body {
-	background: rgba(224, 255, 255, 0.2);
-	background-size: 100% 100%;
+	background: rgba(224, 255, 255, 0.2) url(pictures/back-1.jpg) no-repeat fixed center;
+	background-size: cover;
 	text-align: left; 
 }
+.nav-page {
+	background: #191970;
+  display: flex;
+  margin-bottom: 4px;
+  padding: 2px 95px;
+}
+.menu li {
+  display: inline-block;
+  margin-right: 32px;
+  padding: 5px;
+  padding-top: 8px;
+}
+.menu li a {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  font-style: italic;
+  font-family: century, serif;
+  text-shadow: 0 1px 1px black;
+}
+.menu a:hover {
+	color: rgba(135, 206, 235, 1);
+}
+.navbar-logo {
+	display: inline-block;
+}
+.img-logo {
+	width: 42px;
+	padding-right: 34px;
+}
 footer {
-	color: #191970;
-	font-size: 16px;
-	margin-bottom: 1.2%;
+	background-color: #191970;
+  color: white;
+	font-size: 18px;
 	margin-top: 1.8%;
-	text-align: center;
+	display: flex;
+	align-items: center;
+}
+.autor-caption {
+	margin-left: 42.5%;
+	text-indent: 0;
+}
+.contact {
+	margin-left: 28%;
+	text-indent: 0;
+}
+.contact-icon {
+	margin-left: 5px;
+	display: flex;
+	align-items: center;
+}
+#github-icon {
+	padding: 5px; 
+	height: 21px;
+}
+.small-icon {
+	height: 18px;
+	padding: 5px;
 }
 main{
-	background: rgba(255, 255, 255, 0.9);
+	background: rgba(255, 255, 255, 0.95);
 	margin-bottom: 1.2%;
 	margin-left: 21%;
+	margin-right: 21%;
 	padding-top: 0.7%;
 	padding-bottom: 2.4%;
 	padding-right: 2.6%;
 	padding-left: 2.6%;
-	width: 58%;
 	border: 1px solid #191970;
-	border-right: 1px solid #191970; 
 }
 a:link {
 	color: #1E90FF;
@@ -139,36 +190,7 @@ tr td:first-child {
 	font: bold 22px georgia, "times new roman", serif;
 	padding: 0.7% 8%;
 }
-.nav-page {
-	background: #191970;
-  display: flex;
-  margin-bottom: 4px;
-  padding: 2px 95px;
-}
-.menu li {
-  display: inline-block;
-  margin-right: 32px;
-  padding: 5px;
-  padding-top: 8px;
-}
-.menu li a {
-  font-weight: bold;
-  font-size: 24px;
-  color: white;
-  font-style: italic;
-  font-family: century, serif;
-  text-shadow: 0 1px 1px black;
-}
-.menu a:hover {
-	color: rgba(135, 206, 235, 1);
-}
-.navbar-logo {
-	display: inline-block;
-}
-.img-logo {
-	width: 42px;
-	padding-right: 34px;
-}
+
 .outline{
 	text-decoration: line-through;
 }
