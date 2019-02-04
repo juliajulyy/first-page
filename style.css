@@ -8,7 +8,7 @@ body {
 .nav-page {
 	background: #191970;
   display: flex;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
   padding: 2px 95px;
 }
 .menu li {
@@ -39,9 +39,15 @@ footer {
 	background-color: #191970;
   color: white;
 	font-size: 18px;
-	margin-top: 1.8%;
 	display: flex;
 	align-items: center;
+	margin-top: 10px;
+}
+.small-page {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
 }
 .autor-caption {
 	margin-left: 42.5%;
@@ -52,28 +58,28 @@ footer {
 	text-indent: 0;
 }
 .contact-icon {
-	margin-left: 5px;
+	margin: 4px 5px;
 	display: flex;
 	align-items: center;
 }
 #github-icon {
-	padding: 5px; 
 	height: 21px;
 }
 .small-icon {
 	height: 18px;
-	padding: 5px;
 }
 main{
 	background: rgba(255, 255, 255, 0.95);
-	margin-bottom: 1.2%;
-	margin-left: 21%;
-	margin-right: 21%;
-	padding-top: 0.7%;
-	padding-bottom: 2.4%;
-	padding-right: 2.6%;
-	padding-left: 2.6%;
+	margin: 0 21%;
+	padding: 0.7% 2.6% 2.4%;
 	border: 1px solid #191970;
+}
+.center-content {
+	position: fixed;
+	bottom: 47px;
+	left: 0;
+	right: 0;
+	top: 58px;
 }
 a:link {
 	color: #1E90FF;
@@ -84,7 +90,7 @@ a:visited {
 	text-decoration: none;
 }
 a:hover {
-	color: #2E8B57;
+	color: #00BFFF;
 	font-style: italic;
 }
 b {
